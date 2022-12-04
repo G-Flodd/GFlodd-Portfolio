@@ -1,40 +1,95 @@
+*{
+  box-sizing: border-box;
+  font-family: monospace;
+  
+}
+
 #navBar {
   display: flex;
   flex-direction: row;
   margin: 0px ;
   background-color: rgb(47, 140, 222);
+  height: 75px;
+  justify-content: flex-end;
 }
+
+
 #navBar h1 {
-  width: 25%;
+  width: 30%;
   font-weight: 500;
+  text-align: right;
+  padding-top: 0.75%;
+  position: absolute;
+  left: 0%;
+  margin-top: 0.75%;
+  height: 6.75%;
+  padding-right: 0.75%;
+  
 }
+
 #navigation {
   display: flex;
   width: 50%;
   align-items: center;
   justify-content: space-evenly;
+  border: 4px;
+  border-color: black;
+  border-style: solid;
+  text-align: right;
+  padding-top: 0.75%;
+  position: absolute;
+  right: 0%;
+  margin-top: 0.75%;
+  height: 6.75%;
+  padding-right: 0.75%;
+  
 }
+
+nav a {
+
+border-radius: 15%;
+font-size: 17.5px;
+color: black;
+padding: 1%;
+
+
+}
+
 #navigation p {
   cursor: pointer;
   text-decoration: none;
 }
 
-
 .hero-banner{
-  display: block;
+  display: flex;
   background-image:url(../images/Background\ 4.png) ;
-  height: 600px;
+  height: 300px;
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
   position: relative;
-
+  text-align: right;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 4px;
+ border-color: black;
+ border-style: solid;
 }
+
+#dp {
+width: auto;
+height: 80%;
+margin-left: 1%;
+border-radius: 10%;
+border: 4px;
+border-color: black;
+border-style: solid;
+}
+
 /*----------------------------------------------------------*/
-
-* {
-  box-sizing: border-box;
-}
 
 body {
 
@@ -42,17 +97,75 @@ body {
    padding: 0;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    line-height: 1.5;
-   background-color: rgb(47, 140, 222);
+   background-image: linear-gradient(rgb(57, 127, 232),rgb(11, 16, 123));
 
 }
 
 h1 {
 
   color: rgb(255, 255, 255);
-  background-color: rgb(176, 76, 46);
-
+  border: 4px;
+  border-color: black;
+  border-style: solid;
 }
 
+.hero-banner h2{
+
+ margin-right: 50%;
+ background-color: rgb(200, 165, 51);
+ border-radius: 10%;
+ text-align: center;
+ border: 4px;
+ border-color: black;
+ border-style: solid;
+ 
+}
+
+#aboutmegrid{
+margin: 5%;
+margin-top: 5%;
+display: grid;
+height: 90%;
+grid-template-rows: 100%;
+grid-template-columns: 25% 75%;
+grid-template-areas: 
+"title area" ;
+}
+
+#aboutmetitle{
+grid-area: title;
+}
+
+#aboutmetext{
+  grid-area: area;
+  }
+
+  .title{
+ color: rgb(255, 255, 255);
+ border: 4px;
+ border-color: black;
+ border-style: solid;
+ padding-top: 1%;
+ padding-bottom: 1%;
+ padding-left: 17%;
+ padding-right: 0.5%;
+ position: absolute;
+ left: 0%;
+ height: 7.5%;
+ width: 25%;
+  }
+
+  .title h2{
+
+    font-size: 150%;
+    font-weight: 500;
+  }
+
+#aboutmetext p{
+
+  color: rgb(156, 156, 156);
+
+}
 
 h1,
 h2,
