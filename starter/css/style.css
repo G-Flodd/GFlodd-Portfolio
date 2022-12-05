@@ -1,8 +1,12 @@
+@media only screen and (max-width:1200px) {
+}
+
 *{
   box-sizing: border-box;
   font-family: monospace;
   
 }
+
 
 #navBar {
   display: flex;
@@ -147,7 +151,7 @@ grid-area: title;
  border-style: solid;
  padding-top: 1%;
  padding-bottom: 1%;
- padding-left: 17%;
+ padding-left: 15%;
  padding-right: 0.5%;
  position: absolute;
  left: 0%;
@@ -162,10 +166,93 @@ grid-area: title;
   }
 
 #aboutmetext p{
-
-  color: rgb(156, 156, 156);
+  font-size: 100%;
+  color: rgb(255, 255, 255);
 
 }
+
+#workgrid {
+ height: 650px;
+ display: grid;
+
+ margin: 5%;
+ margin-top: 5%;
+ grid-template-rows: 50% 25% 25%;
+ grid-template-columns: 35 30% 35%;
+ grid-template-areas: 
+ "title WorkImage1 WorkImage1"
+ "title WorkImage2 WorkImage3"
+ "title WorkImage4 WorkImage5"
+;
+}
+
+#worktitle{
+grid-area: title ;
+}
+
+.WorkImage{
+  background-position: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 4px;
+  border: 4px;
+  border-style: solid;
+  border-color: black;
+  display: grid;
+}
+
+#WorkImage1 {
+grid-area: WorkImage1;
+background-image: url(../images/Coming-Soon.jpeg);
+}
+
+#WorkImage2 {
+  grid-area: WorkImage2;
+  background-image: url(../images/Coming-Soon.jpeg);
+  }
+
+#WorkImage3 {
+   grid-area: WorkImage3;
+   background-image: url(../images/Coming-Soon.jpeg);
+   }
+
+#WorkImage4 {
+grid-area: WorkImage4;
+background-image: url(../images/Coming-Soon.jpeg);
+}
+
+#WorkImage5 {
+grid-area: WorkImage5;
+background-image: url(../images/Coming-Soon.jpeg);
+}
+
+#contactmegrid{
+  margin: 5%;
+  margin-top: 5%;
+  display: grid;
+  height: 90%;
+  grid-template-rows: 100%;
+  grid-template-columns: 25% 75%;
+  grid-template-areas: 
+  "title area" ;
+  }
+  
+  #contactmetitle{
+  grid-area: title;
+  }
+  
+  #contactmetext{
+     grid-area: area;
+     }
+
+  #contactmetext a{
+    font-weight: 200;
+    font-size: 150%;
+    text-align: center;
+    margin-left: 25%;
+    color: rgb(255, 255, 255);
+      }
 
 h1,
 h2,
