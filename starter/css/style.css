@@ -3,20 +3,19 @@
 
 *{
   box-sizing: border-box;
-  font-family: monospace;
-  
+  font-family: monospace; 
 }
-
 
 #navBar {
   display: flex;
   flex-direction: row;
-  margin: 0px ;
   background-color: rgb(47, 140, 222);
-  height: 75px;
+  height: 100px;
   justify-content: flex-end;
+  font-weight: 500;
+  text-align: right;
+  padding-top: 0.75%;
 }
-
 
 #navBar h1 {
   width: 30%;
@@ -25,10 +24,8 @@
   padding-top: 0.75%;
   position: absolute;
   left: 0%;
-  margin-top: 0.75%;
-  height: 6.75%;
+  height: 5%;
   padding-right: 0.75%;
-  
 }
 
 #navigation {
@@ -40,23 +37,17 @@
   border-color: black;
   border-style: solid;
   text-align: right;
-  padding-top: 0.75%;
   position: absolute;
   right: 0%;
-  margin-top: 0.75%;
-  height: 6.75%;
-  padding-right: 0.75%;
-  
+  height: 5%;
+  padding-right: 0.75%; 
 }
 
 nav a {
-
 border-radius: 15%;
 font-size: 17.5px;
 color: black;
 padding: 1%;
-
-
 }
 
 #navigation p {
@@ -96,17 +87,14 @@ border-style: solid;
 /*----------------------------------------------------------*/
 
 body {
-
    margin: 0;
    padding: 0;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    line-height: 1.5;
    background-image: linear-gradient(rgb(57, 127, 232),rgb(11, 16, 123));
-
 }
 
 h1 {
-
   color: rgb(255, 255, 255);
   border: 4px;
   border-color: black;
@@ -114,7 +102,6 @@ h1 {
 }
 
 .hero-banner h2{
-
  margin-right: 50%;
  background-color: rgb(200, 165, 51);
  border-radius: 10%;
@@ -122,7 +109,6 @@ h1 {
  border: 4px;
  border-color: black;
  border-style: solid;
- 
 }
 
 #aboutmegrid{
@@ -142,7 +128,7 @@ grid-area: title;
 
 #aboutmetext{
   grid-area: area;
-  }
+}
 
   .title{
  color: rgb(255, 255, 255);
@@ -160,7 +146,6 @@ grid-area: title;
   }
 
   .title h2{
-
     font-size: 150%;
     font-weight: 500;
   }
@@ -168,13 +153,11 @@ grid-area: title;
 #aboutmetext p{
   font-size: 100%;
   color: rgb(255, 255, 255);
-
 }
 
-#workgrid {
+#workgrid{
  height: 650px;
  display: grid;
-
  margin: 5%;
  margin-top: 5%;
  grid-template-rows: 50% 25% 25%;
@@ -202,29 +185,29 @@ grid-area: title ;
   display: grid;
 }
 
-#WorkImage1 {
+#WorkImage1{
 grid-area: WorkImage1;
-background-image: url(../images/Coming-Soon.jpeg);
+background-image: url(https://placehold.co/1240x370/000000/FFFFFF/png);
 }
 
-#WorkImage2 {
+#WorkImage2{
   grid-area: WorkImage2;
-  background-image: url(../images/Coming-Soon.jpeg);
+  background-image: url(https://placehold.co/616x155/000000/FFFFFF/png);
   }
 
-#WorkImage3 {
+#WorkImage3{
    grid-area: WorkImage3;
-   background-image: url(../images/Coming-Soon.jpeg);
+   background-image: url(https://placehold.co/616x155/000000/FFFFFF/png);
    }
 
-#WorkImage4 {
+#WorkImage4{
 grid-area: WorkImage4;
-background-image: url(../images/Coming-Soon.jpeg);
+background-image: url(https://placehold.co/616x155/000000/FFFFFF/png);
 }
 
-#WorkImage5 {
+#WorkImage5{
 grid-area: WorkImage5;
-background-image: url(../images/Coming-Soon.jpeg);
+background-image: url(https://placehold.co/616x155/000000/FFFFFF/png);
 }
 
 #contactmegrid{
