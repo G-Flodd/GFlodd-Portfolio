@@ -18,3 +18,7 @@ Finaly there is the footer with two links to my email and my linked in.
 
 ## License
 Please refer to the LICENSE in the repo.
+
+
+![Screenshot of top half of the website](/images/Top half.png)
+![Screenshot of bottom half of the website](/images/bottom half.png)
