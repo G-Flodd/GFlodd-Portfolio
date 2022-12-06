@@ -1,7 +1,8 @@
 # GFlodd-Portfolio
 Welcome to my portfolio page
 
-Description
+Description: 
+
 My objecctive was to make a portfolio page to kick off my web dev career. 
 
 How have I done this? I have built a web page to load my work ads well as link to several of my personal information pages. 
