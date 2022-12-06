@@ -1,5 +1,66 @@
 @media only screen and (max-width:1200px) {
+  nav h1{
+    font-size: 150%;
+  }
 }
+
+@media only screen and (max-width: 800px) {
+  #navigation{
+    visibility: hidden;
+  }
+   .hero-banner h2{
+     visibility: hidden;
+}
+  nav h1{
+    font-size: 100%;
+  }
+  .hero-banner img{
+    visibility: hidden;
+  }
+  #worktitle h2{
+    font-size:100%;
+  }
+  #aboutmetitle h2{
+    font-size:100%;
+  }
+  #contactmetitle h2{
+    font-size:100%;
+  }
+  #contactmetext ul a {
+    font-size:100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #navigation{
+    visibility: hidden;
+  }
+  .hero-banner h2{
+    visibility: hidden;
+}  
+  nav h1{
+    font-size: 80%;
+  }
+  .hero-banner img{
+    visibility: hidden;
+  }
+  #worktitle h2{
+    font-size:80%;
+  }
+  #aboutmetitle h2{
+    font-size:80%;
+  }
+  #contactmetitle h2{
+    font-size:80%;
+  }
+  #contactmetext ul a {
+    font-size:80%;
+  }
+
+}
+
+
+
 
 *{
   box-sizing: border-box;
@@ -58,7 +119,7 @@ padding: 1%;
 .hero-banner{
   display: flex;
   background-image:url(../images/Background\ 4.png) ;
-  height: 300px;
+  height: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
@@ -83,8 +144,6 @@ border: 4px;
 border-color: black;
 border-style: solid;
 }
-
-/*----------------------------------------------------------*/
 
 body {
    margin: 0;
@@ -115,7 +174,7 @@ h1 {
 margin: 5%;
 margin-top: 5%;
 display: grid;
-height: 90%;
+height: auto;
 grid-template-rows: 100%;
 grid-template-columns: 25% 75%;
 grid-template-areas: 
